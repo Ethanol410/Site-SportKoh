@@ -1,1 +1,163 @@
+/*************************************************************************************/
+/*Définition des polices*/
+@font-face {
+    font-family: 'JacquesFrancois';
+    src: url('./font/jacquesfrancois-regular-webfont.woff2') format('woff2'),
+    url('./font/jacquesfrancois-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Rakkas';
+    src: url('./font/rakkas-regular-webfont.woff2') format('woff2'),
+    url('./font/rakkas-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*************************************************************************************/
+/*Définition globales*/
+body{
+    background-color: #FFBD59;
+    margin: 0;
+    padding: 0;
+    scroll-snap-type: block mandatory;
+}
+
+h1{
+    font-family: 'Rakkas', Arial, sans-serif;
+}
+
+/*************************************************************************************/
+/*Définition du header*/
+body header{
+    margin: 0;
+}
+
+body > header > div{
+    background-image: url(img/banniere_header.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 300px;
+    background-position-x: 0;
+    background-position-y: 0;
+    color: #fff;
+}
+
+body > header > div > div{
+    float: right;
+    margin-top: 1.5em;
+    margin-right: 1.5em;
+}
+
+body > header > div > div > a{
+    margin-right: 5px;
+}
+
+body > header > div > div > a > img{
+    transition: all 500ms ease-in-out;
+}
+
+body > header > div > div > a > img:hover{
+    transform: translateY(-3px);
+}
+
+body > header > div > img{
+    float: left;
+    margin-top: 2.5em;
+    margin-left: 3.5em;
+}
+
+body > header > div > h1{
+    font-size: 48px;
+    text-transform: capitalize;
+    margin: auto;
+    text-align: center;
+    line-height: 300px;
+}
+
+body > header > div > nav{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 3em;
+    margin-left: 8em;
+}
+
+body > header > div > nav >a {
+    position: relative;
+    font-family: 'JacquesFrancois', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    margin-right: 2em;
+    color: #fff;
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+header div nav a:hover{
+    transform: translateY(-3px);
+}
+
+header div nav a::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    width: 0;
+    background-color: #fff;
+    transition: all 500ms ease-in-out;
+}
+
+.selectionne::before{
+    height: 2px;
+    width: 100%;
+}
+
+header div nav a:hover::before {
+    width: 100%;
+}
+
+body > header > div+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+    height: 120px;
+    transform: translateY(-67px);
+}
+
+.icone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #277AB9;
+    margin-left: 3.5em;
+}
+
+.icone > img{
+    scale: 0.9;
+}
+
+/*************************************************************************************/
+/*Définition du main*/
+main{
+    height: 500px;
+    background-color: beige;
+    transform: translateY(-67px);
+}
+
+/*************************************************************************************/
+/*Définition du footer*/
+footer{
+    height: 180px;
+    background-color: #277AB9;
+}
