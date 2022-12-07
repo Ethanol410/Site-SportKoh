@@ -193,3 +193,28 @@ body > footer div{
 body > footer img{
     scale: 0.8;
 }
+/*************************************************************************************/
+/*************************************************************************************/
+/*Page de la liste des séjours*/
+
+.notation {
+    width: 60px;
+    height: 60px;
+}
+
+main > section > article {
+    width: 420px;
+    height: 420px;
+    margin: 40px;
+    background-image: url(img/image_corse_carre.png);
+}
+
+main > section {
+    max-width: 100%;
+    background-color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
