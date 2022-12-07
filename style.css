@@ -31,6 +31,7 @@ h1{
 main > h2 {
     background-color: #277AB9;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .icone{
@@ -171,22 +172,10 @@ footer{
 /*************************************************************************************/
 /*************************************************************************************/
 /*Page de la liste des séjours*/
+
 .notation {
     width: 60px;
     height: 60px;
-}
-
-.iconBack > img {
-    width: 50px;
-    height: 50px;
-    align-self: center;
-}
-
-.iconBack {
-    width: 60px;
-    height: 60px;
-    align-self: center;
-    background-color: #277AB9;
 }
 
 main > section > article {
@@ -199,6 +188,7 @@ main > section > article {
 main > section {
     max-width: 100%;
     background-color: #FFFFFF;
+    margin-top: 0;
     margin-bottom: 60px;
     display: flex;
     flex-wrap: wrap;
