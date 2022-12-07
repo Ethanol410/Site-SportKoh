@@ -28,6 +28,10 @@ body{
 h1{
     font-family: 'Rakkas', Arial, sans-serif;
 }
+main > h2 {
+    background-color: #277AB9;
+    text-align: center;
+}
 
 /*************************************************************************************/
 /*Définition du header*/
@@ -160,4 +164,40 @@ main{
 footer{
     height: 180px;
     background-color: #277AB9;
+}
+/*************************************************************************************/
+/*************************************************************************************/
+/*Page de la liste des séjours*/
+.notation {
+    width: 60px;
+    height: 60px;
+}
+
+.iconBack > img {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+.iconBack {
+    width: 60px;
+    height: 60px;
+    align-self: center;
+    background-color: #277AB9;
+}
+
+main > section > article {
+    width: 420px;
+    height: 420px;
+    margin: 40px;
+    background-image: url(images/image_corse_carre.png);
+}
+
+main > section {
+    max-width: 100%;
+    background-color: #FFFFFF;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
