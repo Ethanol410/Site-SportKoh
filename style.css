@@ -33,6 +33,17 @@ main > h2 {
     text-align: center;
 }
 
+.icone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #277AB9;
+}
+
 /*************************************************************************************/
 /*Définition du header*/
 body header{
@@ -135,15 +146,7 @@ body > header > div+div{
     transform: translateY(-67px);
 }
 
-.icone{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    width: 50px;
-    height: 50px;
-    background-color: #277AB9;
+header .icone{
     margin-left: 3.5em;
 }
 
@@ -190,7 +193,7 @@ main > section > article {
     width: 420px;
     height: 420px;
     margin: 40px;
-    background-image: url(images/image_corse_carre.png);
+    background-image: url(img/image_corse_carre.png);
 }
 
 main > section {
