@@ -33,13 +33,14 @@ h1{
 /*Définition du header*/
 body header{
     margin: 0;
+    height: 100*(300/1080)vh;
 }
 
 body > header > div{
     background-image: url(img/banniere_header.png);
     background-repeat: no-repeat;
     background-size:contain;
-    height: 300px;
+    height: 100*(300/1080)vh;
     background-position-x: 0;
     background-position-y: 0;
     color: #fff;
@@ -127,8 +128,17 @@ body > header > div+div{
     justify-content: center;
     align-items: center;
     background-image: none;
-    height: 120px;
-    transform: translateY(-67px);
+    height: 100px;
+    transform: translateY(-69px);
+}
+
+body > header > div+div > div{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
 }
 
 .icone{
@@ -140,7 +150,6 @@ body > header > div+div{
     width: 50px;
     height: 50px;
     background-color: #277AB9;
-    margin-left: 3.5em;
 }
 
 .icone > img{
@@ -149,15 +158,38 @@ body > header > div+div{
 
 /*************************************************************************************/
 /*Définition du main*/
-main{
+body > main{
     height: 500px;
     background-color: beige;
-    transform: translateY(-67px);
+    transform: translateY(-69px);
 }
 
 /*************************************************************************************/
 /*Définition du footer*/
-footer{
-    height: 180px;
+body > footer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
     background-color: #277AB9;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-origin: border-box;
+    background-position-y: center;
+    background-position-x: 3em;
+}
+
+body > footer div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+}
+
+body > footer img{
+    scale: 0.8;
 }
