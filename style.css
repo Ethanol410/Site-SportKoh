@@ -216,6 +216,21 @@ body > footer img:hover{
     height: 60px;
 }
 
+.promotion {
+    background-color: red;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    border-radius: 30px;
+}
+
+.promotion > p{
+    position: relative;
+    top: 10%;
+}
+
 main > section > h2{
     width: 100%;
     text-align: center;
@@ -225,15 +240,40 @@ main > section > h2{
     color: #fff;
     font-size: 40px;
     line-height: 60px;
+    text-transform: uppercase;
 }
 
 main > section > article {
+    position: relative;
     width: 320px;
     height: 320px;
     margin: 40px;
     background-image: url(img/image_corse_carre.png);
     background-repeat: no-repeat;
     background-size: contain;
+    text-align: center;
+    color: #FFFFFF;
+    display: flexbox;
+}
+
+.avecPromo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.avecPromo > p {
+    position: relative;
+    top: 30%;
+}
+
+.avecPromo > h2 {
+    position: relative;
+    top: 30%;
+}
+
+.sansPromo {
+    color: #000000;
 }
 
 main > section {
@@ -244,4 +284,9 @@ main > section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+main > section > article > .icone{
+    position: absolute;
+    bottom: 0;
 }
