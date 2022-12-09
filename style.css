@@ -22,7 +22,7 @@ body{
     background-color: #FFBD59;
     margin: 0;
     padding: 0;
-    scroll-snap-type: block mandatory;
+
 }
 
 h1{
@@ -168,7 +168,7 @@ body > header > div+div > div{
 /*************************************************************************************/
 /*Définition du main*/
 body > main{
-    height: 500px;
+    height: 100%;
     background-color: beige;
 }
 
@@ -176,11 +176,13 @@ body > main{
 /*Définition du footer*/
 body > footer{
     position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 130px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    height: 130px;
+    justify-content: center; 
     background-color: #277AB9;
     background-image: url(img/logo.png);
     background-repeat: no-repeat;
