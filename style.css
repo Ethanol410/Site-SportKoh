@@ -169,13 +169,11 @@ body > header > div+div > div{
 /*Définition du main*/
 body > main{
     height: 100%;
-    background-color: beige;
 }
 
 .coup_de_coeur{
     height: 350px;
     width: 100%;
-    background-color: #000000;
     padding: 0;
 }
 
@@ -198,6 +196,7 @@ body > main{
     height: 350px;
     margin: 0;
     background-size: cover;
+    background-position:top center;
 }
 
 .coup_de_coeur > .carrousel > .bouton_carrousel{
@@ -218,7 +217,7 @@ body > main{
 .coup_de_coeur > .carrousel + div{
     height: 350px;
     width: 50%;
-    background-color:aqua;
+    background-color: #fff;
     margin: 0;
 }
 
