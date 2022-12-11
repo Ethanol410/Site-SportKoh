@@ -22,7 +22,6 @@ body{
     background-color: #FFBD59;
     margin: 0;
     padding: 0;
-
 }
 
 h1{
@@ -173,6 +172,62 @@ body > main{
     background-color: beige;
 }
 
+.coup_de_coeur{
+    height: 350px;
+    width: 100%;
+    background-color: #000000;
+    padding: 0;
+}
+
+.coup_de_coeur > .carrousel{
+    position:relative;
+    height: 350px;
+    width: 50%;
+    margin: 0;
+}
+
+.coup_de_coeur > .carrousel > #carrousel_container{
+    height: 350px;
+    width: 350%;
+}
+
+.coup_de_coeur > .carrousel > #carrousel_container > .img{
+    width: 50%;
+    height: 350px;
+    margin: 0;
+    background-size: cover;
+    display: inline-block;
+}
+
+.coup_de_coeur > .carrousel > .bouton_carrousel{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    top: 30%;
+    opacity: 0.5;
+    transition: all 100ms ease-in-out;
+}
+
+.coup_de_coeur > .carrousel > .bouton_carrousel:hover{
+    opacity: 1;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.coup_de_coeur > .carrousel + div{
+    height: 350px;
+    width: 50%;
+    background-color:aqua;
+    margin: 0;
+}
+
+#g{
+    left: 0.5em;
+}
+
+#d{
+    right: 0.5em; 
+}
 /*************************************************************************************/
 /*Définition du footer*/
 body > footer{
