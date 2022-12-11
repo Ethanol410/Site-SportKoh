@@ -55,8 +55,7 @@
                 container=document.getElementById("carrousel_container");
                 g=document.getElementById("gauche");
                 d=document.getElementById("droite");
-                container.style.width=(50*nb) + "%";
-                container.style.height="350px";
+                container.style.width=(50*nb) + "vw";
                 for (i=1;i<=nb;i++){
                     div=document.createElement("div");
                     div.className="img";
@@ -69,7 +68,7 @@
                     pos--;
                 else
                     pos=0;
-                container.style.transform="translate("+pos*50+"%)";
+                container.style.transform="translate("+pos*50+"vw)";
                 container.style.transition="all 100ms ease-in-out";
             }
             d.onclick=function(){
@@ -77,7 +76,7 @@
                     pos++;
                 else
                     pos=-nb+1;
-                container.style.transform="translate("+pos*50+"%)";
+                container.style.transform="translate("+pos*50+"vw)";
                 container.style.transition="all 100ms ease-in-out";
             }
         </script>
