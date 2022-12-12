@@ -295,9 +295,14 @@ body > main{
 /*************************************************************************************/
 /*Page de la liste des séjours*/
 
+.sansPromo + div {
+    position: absolute;
+    top: 50%;
+}
+
 .notation {
-    width: 60px;
-    height: 60px;
+    width: 15%;
+    height: 15%;
 }
 
 .promotion {
@@ -306,7 +311,8 @@ body > main{
     width: 60px;
     height: 60px;
     position: absolute;
-    top: 0;
+    top: -25px;
+    left: -25px;
     border-radius: 30px;
 }
 
@@ -328,7 +334,7 @@ main > section > h2{
 }
 
 main > section > article {
-    position: relative;
+    position:relative;
     width: 320px;
     height: 320px;
     margin: 40px;
@@ -337,11 +343,9 @@ main > section > article {
     background-size: contain;
     text-align: center;
     color: #FFFFFF;
-    display: flexbox;
 }
 
 .avecPromo{
-    position: relative;
     width: 100%;
     height: 100%;
 }
@@ -373,4 +377,36 @@ main > section {
 main > section > article > .icone{
     position: absolute;
     bottom: 0;
+}
+
+.button {
+    background-color: #3F91CC;
+    width: 155px;
+    height: 45px;
+    position: absolute;
+    left: 135px;
+    top: 245px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    filter: drop-shadow(4px 4px 4px rgba(0,0,0,0.25));
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3F91CC;
+}
+
+.button > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    font-style: Inter;
+}
+
+.button:hover{
+    background-color: #277AB9;
+    border-color: #FFFFFF;
+    border-width: 5px;
+    border-style: solid;
 }
