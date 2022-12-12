@@ -3,7 +3,6 @@
     <head>
         <title>Accueil</title>
         <link rel="stylesheet" type="text/css" href="./style.css">
-        <script src="./script.js" async></script>
     </head>
     <body>
         <header>
@@ -40,6 +39,15 @@
                 </div>
                 <div>
                     <div><h2>Notre coup de coeur</h2></div>
+                    <div>
+                        <div>
+                            <h3>Corse</h3>
+                            <p>Plongée sous marine</p>
+                            <p>Baignades à volonté</p>
+                        </div>
+                        
+                    </div>
+                    <div></div>
                 </div>
             </section>
         </main>
@@ -51,5 +59,37 @@
                 <a href="https://twitter.com" target="_blank"><img src="img/logo_twitter.svg" alt="Twitter"></a>
             </div>
         </footer>
+        <script>
+            document.body.onload=function(){
+                nb=4;
+                pos=0
+                container=document.getElementById("carrousel_container");
+                g=document.getElementById("gauche");
+                d=document.getElementById("droite");
+                container.style.width=(50*nb) + "vw";
+                for (i=1;i<=nb;i++){
+                    div=document.createElement("div");
+                    div.className="img";
+                    div.style.backgroundImage="url('img/carrousel/img"+i+".png')";
+                    container.appendChild(div);
+                }   
+            }
+            g.onclick=function(){
+                if(pos<0)
+                    pos++;
+                else
+                    pos=-nb+1;
+                container.style.transform="translate("+pos*50+"vw)";
+                container.style.transition="all 500ms ease-in-out";
+            }
+            d.onclick=function(){
+                if(pos>-nb+1)
+                    pos--;
+                else
+                    pos=0;
+                container.style.transform="translate("+pos*50+"vw)";
+                container.style.transition="all 500ms ease-in-out";
+            }
+        </script>
     </body>
 </html>
