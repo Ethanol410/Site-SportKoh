@@ -307,7 +307,7 @@ main > section > h2{
     text-transform: uppercase;
 }
 
-main > section > article {
+main > section > .catalog_item {
     position:relative;
     width: 320px;
     height: 320px;
@@ -317,6 +317,7 @@ main > section > article {
     background-size: contain;
     text-align: center;
     color: #FFFFFF;
+    border-radius: 15% 0 15% 0;
 }
 
 .avecPromo{
@@ -348,7 +349,7 @@ main > section {
     justify-content: space-around;
 }
 
-main > section > article > .icone{
+main > section > .catalog_item > .icone{
     position: absolute;
     bottom: 0;
 }
