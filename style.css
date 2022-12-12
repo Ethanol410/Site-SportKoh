@@ -261,7 +261,7 @@ body > main{
 }
 
 .coup_de_coeur > .carrousel + div > div{
-    height: 60px;
+    height: 12.5%;
     width: 100%;
     background-color: #277AB9;
     margin: 0;
@@ -276,12 +276,23 @@ body > main{
 }
 
 .coup_de_coeur > .carrousel + div > div+div{
+    display: flex;
     background-color: blue;
     color: #000;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.coup_de_coeur > .carrousel + div > div+div > div {
+    background-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50%;
+}
+
+.coup_de_coeur > .carrousel + div > div+div > h3 p {
+   height: 20px;
 }
 
 #g{
