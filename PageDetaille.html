@@ -2,20 +2,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 
 <head>
-	<link rel="stylesheet" type="text/css" href="/PageHébergement/style.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
 	<meta charset="utf-8">
 	<title>Sport KOH</title>
 	<meta name="description" content="Sites Sport koh" />
 	<meta name="keywords"
 		content="voyage,web,webmaster,tourisme,carte,Localisation,Sport,Lecture,tranquilité,calme,sportif,">
 	<meta name="author" content="Collin Ethan & CHERON William & LANSONNEUR Ewan" />
-	<script src="./script.js"></script>
+
 
 </head>
 
 <body>
 	<header>
-
 		<div>
 			<div>
 				<a href=""><img src="img/union_jack_flah.png" alt="English" width="40px" height="25px"></a>
@@ -24,17 +23,19 @@
 			<img src="img/logo.png" alt="Logo de Sport Koh" width="150px" height="150px">
 			<nav>
 				<a href="#" class="selectionne">Accueil</a>
-				<a href="#">Nos séjours</a>
-				<a href="#">Qui skommes nous ?</a>
+				<a href="catalogue_sejours.html">Nos séjours</a>
+				<a href="#">Qui sommes nous ?</a>
 				<a href="#">Hébergements et Location</a>
 			</nav>
 			<h1>SPORT KOH</h1>
 		</div>
 		<div>
-			<div class="icone"><img src="img/icone_livre.svg" alt="Icone Livre"></div>
-			<div class="icone"><img src="img/icone_mer.svg" alt="Icone Mer"></div>
-			<div class="icone"><img src="img/icone_montagne.svg" alt="Icone Montagne"></div>
-			<div class="icone"><img src="img/icone_ballon.svg" alt="Icone Ballon"></div>
+			<div>
+				<div class="icone"><img src="img/icone_livre.svg" alt="Icone Livre"></div>
+				<div class="icone"><img src="img/icone_mer.svg" alt="Icone Mer"></div>
+				<div class="icone"><img src="img/icone_montagne.svg" alt="Icone Montagne"></div>
+				<div class="icone"><img src="img/icone_ballon.svg" alt="Icone Ballon"></div>
+			</div>
 		</div>
 
 	</header>
@@ -42,51 +43,66 @@
 
 
 	<main>
-		<section>
-			<div>
-				<h1>Plongée au Coeur des calanques Corses</h1>
-				<!-- Titre de la page d'Hébergement -->
+		<div class="TitreMenu">
+			<h1>Plongée au Coeur des calanques Corses</h1>
+			<!-- Titre de la page d'Hébergement -->
+		</div>
+		<section class="MenuDetail">
+		<article class="coup_de_coeur">
+			<div class="carrousel">
+				<div id="carrousel_container"></div>
+				<img src="img/chevron_gauche.png" alt="Se déplacer à gauche" class="bouton_carrousel" id="g">
+				<img src="img/chevron_droit.png" alt="Se déplacer à droite" class="bouton_carrousel" id="d">
 			</div>
+		</article>
+		<article>
 			<div>
-				<img src="" alt="" title="" />
+				<div class="RésumeTxt">
+					<p>Découvez les calanques de Piana, avec leurs rochers granitiques, leurs couleurs extraordinaires
+						et leurs eaux limpides. Partez en plongée au pied des falaises et observez une grande diversité
+						de poissons méditerranéens : sarres, girelles, mérous, murènes, ... Dans cette réserve protégée,
+						vous apprécierez la douceur méditerranéenne et son patrimoine unique.</p>
+				</div>
+				<div class="ResumeListe">
+					<ul>
+						<li>
+							Durée : 6 jours
+						</li>
+						<li>
+							Tranche d'âge : 18 à 35 ans
+						</li>
+						<li>
+							Intensité physique : 4/5
+						</li>
+						<li>
+							Niveau d’expertise dans le sport principal : 2 (niveau 1 de plongée exigé)
+						</li>
+					</ul>
+				</div>
+				<div class="BoutonReserver">
+					<a href="">Réserver</a>
+				</div>
+				<div class="EtoileNote">
+					<img src="./img/etoile1.png" alt="etoile1" title="Note">
+					<img src="./img/etoile1.png" alt="etoile1" title="Note">
+					<img src="./img/etoile1.png" alt="etoile1" title="Note">
+					<img src="./img/etoile1.png" alt="etoile1" title="Note">
+				</div>
+				<div class="NbNote">
+					<p>142 notes</p>
+				</div>
+				<div class="PrixMenu">
+					<p>A partir de 750€</p>
+				</div>
 			</div>
-			<div>
-				<p>Découvez les calanques de Piana, avec leurs rochers granitiques, leurs couleurs extraordinaires
-					et leurs eaux limpides. Partez en plongée au pied des falaises et observez une grande diversité
-					de poissons méditerranéens : sarres, girelles, mérous, murènes, ... Dans cette réserve protégée,
-					vous apprécierez la douceur méditerranéenne et son patrimoine unique.</p>
-			</div>
-			<div>
-				<ul>
-					<li>
-						Durée : 6 jours
-					</li>
-					<li>
-						Tranche d'âge : 18 à 35 ans
-					</li>
-					<li>
-						Intensité physique : 4/5
-					</li>
-					<li>
-						Niveau d’expertise dans le sport principal : 2 (niveau 1 de plongée exigé)
-					</li>
-				</ul>
-			</div>
-			<a href="">Réserver</a>
-			<div>
-				<img src="" alt="" title="">
-				<p>142 notes</p>
-			</div>
-			<div>
-				<p>A partir de 750€</p>
-			</div>
+			</article>
 		</section>
 		<section>
 			<article>
-				<div>
+				<div class="TitreDuProg">
 					<h2>Le Séjour</h2>
 				</div>
-				<div>
+				<div class="ProgammeSejour">
 					<ul>
 						<li>
 							Jour d’arrivée : accueil à l’aéroport d’Ajaccio à 10h et transport en bus jusqu’au
@@ -109,10 +125,10 @@
 				</div>
 			</article>
 			<article>
-				<div>
+				<div class="TitreActivite">
 					<h2>ACTIVITÉS SECONDAIRES</h2>
 				</div>
-				<div>
+				<div class="ListeActivite">
 					<ul>
 						<li>
 							Randonnées
@@ -127,10 +143,10 @@
 				</div>
 			</article>
 			<article>
-				<div>
+				<div class="TitreAvantages">
 					<h2>LES AVANTAGES</h2>
 				</div>
-				<div>
+				<div class="ListeAvantages">
 					<ul>
 						<li>Programme plongée intensive avec 6 plongées</li>
 						<li>Eaux limpides et chaudes</li>
@@ -140,10 +156,10 @@
 				</div>
 			</article>
 			<article>
-				<div>
+				<div class="TitrePeriode">
 					<h2>PÉRIODE DU SÉJOUR</h2>
 				</div>
-				<div>
+				<div class="ListePeriode">
 					<ul>
 						<li>Du 16 avril au 20 mai</li>
 						<li>Du 16 juillet au 26 aout</li>
@@ -151,10 +167,10 @@
 				</div>
 			</article>
 			<article>
-				<div>
+				<div class="TitreEquipements">
 					<h2>EQUIPEMENTS</h2>
 				</div>
-				<div>
+				<div class="ListeEquipementsDispo">
 					<ul>
 						<li>Combinaison de plongée</li>
 						<li>Détendeur</li>
@@ -162,7 +178,7 @@
 						<li>Palmes</li>
 					</ul>
 				</div>
-				<div>
+				<div class="ListeEquipementsNonDispo">
 					<ul>
 						<li>Crème solaire (non inclu)</li>
 						<li>T-shirt anti-UV (non inclu)</li>
@@ -171,16 +187,16 @@
 				</div>
 			</article>
 			<article>
-				<div>
+				<div class="TitrePrestations">
 					<h2>PRESTATIONS</h2>
 				</div>
-				<div>
+				<div class="ListePrestationsDispo">
 					<ul>
 						<li>Hébergement et restoration en pension complète</li>
 						<li>6 séances de plongée avec moniteur</li>
 					</ul>
 				</div>
-				<div>
+				<div class="ListePrestationsNonDispo">
 					<ul>
 						<li>Le transport jusqu’à Ajacio (non inclu)</li>
 						<li>Consommations au bar (non inclu)</li>
@@ -188,19 +204,115 @@
 				</div>
 			</article>
 		</section>
+		<div class="TitreSUPP">
+			<h1>Vous aimerez peut-être...</h1>
+		</div>
 		<section>
-			<div>
-				<h1>Vous aimerez peut-être...</h1>
-			</div>
-			<div></div>
-			<div></div>
-			<div></div>
+
+			<article>
+				<div class="sansPromo">
+					<h2>Voyage en Corse</h2>
+					<p>Plongée sous-marine<br>Baignade à volontée</p>
+				</div>
+				<div>
+					<img src="img/etoile1.png" alt="Etoile" class="notation">
+					<img src="img/etoile1.png" alt="Etoile" class="notation">
+					<img src="img/etoile1.png" alt="Etoile" class="notation">
+					<img src="img/etoile1.png" alt="Etoile" class="notation">
+					<img src="img/etoile1.png" alt="Etoile" class="notation">
+				</div>
+				<div class="icone">
+					<img src="img/icone_mer.svg" alt="Icone de Vague">
+				</div>
+				<div class="button">
+					<p>Je réserve</p>
+				</div>
+			</article>
+			<article>
+				<div class="sansPromo">
+					<h2>Voyage en Corse</h2>
+					<p>Plongée sous-marine<br>Baignade à volontée</p>
+				</div>
+				<div>
+					<img src="img/etoile1.png" alt="Etoile" class="notation">
+					<img src="img/etoile1.png" alt="Etoile" class="notation">
+					<img src="img/etoile1.png" alt="Etoile" class="notation">
+					<img src="img/etoile1.png" alt="Etoile" class="notation">
+					<img src="img/etoile1.png" alt="Etoile" class="notation">
+				</div>
+				<div class="icone">
+					<img src="img/icone_montagne.svg" alt="Icone de montagne">
+				</div>
+				<div class="button">
+					<p>Je réserve</p>
+				</div>
+			</article>
+			<article>
+				<div class="sansPromo">
+					<h2>Voyage en Corse</h2>
+					<p>Plongée sous-marine<br>Baignade à volontée</p>
+				</div>
+				<div>
+					<img src="img/etoile1.png" alt="Etoile" class="notation">
+					<img src="img/etoile1.png" alt="Etoile" class="notation">
+					<img src="img/etoile1.png" alt="Etoile" class="notation">
+					<img src="img/etoile1.png" alt="Etoile" class="notation">
+					<img src="img/etoile1.png" alt="Etoile" class="notation">
+				</div>
+				<div class="icone">
+					<img src="img/icone_ballon.svg" alt="Icone de balle">
+				</div>
+				<div class="button">
+					<p>Je réserve</p>
+				</div>
+			</article>
 
 		</section>
 		<footer>
 
 		</footer>
 	</main>
+	<footer>
+		<div>
+			<a href="mailto:sport.koh@gmail.com"><img src="img/logo_at.svg" alt="Email"></a>
+			<a href="https://www.instagram.com" target="_blank"><img src="img/logo_instagram.svg" alt="Instagram"></a>
+			<a href="https://facebook.com" target="_blank"><img src="img/logo_facebook.svg" alt="Facebook"></a>
+			<a href="https://twitter.com" target="_blank"><img src="img/logo_twitter.svg" alt="Twitter"></a>
+		</div>
+	</footer>
+	<script>
+		document.body.onload = function () {
+			nb = 4;
+			pos = 0
+			container = document.getElementById("carrousel_container");
+			g = document.getElementById("gauche");
+			d = document.getElementById("droite");
+			container.style.width = (50 * nb) + "vw";
+			for (i = 1; i <= nb; i++) {
+				div = document.createElement("div");
+				div.className = "img";
+				div.style.backgroundImage = "url('img/carrousel/img" + i + ".png')";
+				container.appendChild(div);
+			}
+		}
+		g.onclick = function () {
+			if (pos < 0)
+				pos++;
+			else
+				pos = -nb + 1;
+			container.style.transform = "translate(" + pos * 50 + "vw)";
+			container.style.transition = "all 100ms ease-in-out";
+		}
+		d.onclick = function () {
+
+			if (pos > -nb + 1)
+				pos--;
+			else
+				pos = 0;
+			container.style.transform = "translate(" + pos * 50 + "vw)";
+			container.style.transition = "all 100ms ease-in-out";
+		}
+	</script>
 </body>
 
 </html>

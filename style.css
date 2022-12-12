@@ -348,3 +348,20 @@ main > section > article > .icone{
     position: absolute;
     bottom: 0;
 }
+
+
+
+/*************************************************************************************/
+/*************************************************************************************/
+/*Page hébergement détaillé*/
+
+.MenuDetail {
+    width: 50%;
+    position: relative;
+    background-image: none;
+    
+}
+
+.MenuDetail > article {
+    width: 50%;
+}
