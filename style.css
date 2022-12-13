@@ -350,7 +350,7 @@ body > main{
     top: 10%;
 }
 
-main > section > h2{
+main > .catalogue > h2{
     width: 100%;
     text-align: center;
     background-color: #277AB9;
@@ -362,7 +362,7 @@ main > section > h2{
     text-transform: uppercase;
 }
 
-main > section > .catalog_item {
+main > .catalogue > .catalog_item {
     position:relative;
     width: 320px;
     height: 320px;
@@ -394,7 +394,7 @@ main > section > .catalog_item {
     color: #000000;
 }
 
-main > section {
+main > .catalogue {
     max-width: 100%;
     background-color: #FFFFFF;
     margin-top: 0;
@@ -404,7 +404,7 @@ main > section {
     justify-content: space-around;
 }
 
-main > section > .catalog_item > .icone{
+main > .catalogue > .catalog_item > .icone{
     position: absolute;
     bottom: 0;
 }
@@ -443,7 +443,7 @@ main > section > .catalog_item > .icone{
     border-color: #3F91CC;
 }
 
-.button > a{
+.button > p{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 1.2em;
