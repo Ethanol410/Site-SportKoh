@@ -414,7 +414,7 @@ main > section > .catalog_item > .icone{
     border-color: #3F91CC;
 }
 
-.button > a{
+.button > p{
     text-decoration: none;
     color: #FFFFFF;
     font-size: 1.2em;
