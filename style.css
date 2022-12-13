@@ -29,7 +29,7 @@ h1{
 }
 
 h2{
-    font-family: 'JacquesFrancois';
+    font-family: 'JacquesFrancois', Arial, sans-serif;
 }
 
 .icone{
@@ -210,6 +210,19 @@ body > main{
     height: 100%;
 }
 
+.texte_aguicheur{
+    height: auto;
+    font-family: 'JacquesFrancois', Arial, sans-serif;
+    font-size: 30px;
+    padding: 0;
+}
+
+.texte_aguicheur p{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
 .coup_de_coeur{
     height: 350px;
     width: 100%;
@@ -286,13 +299,18 @@ body > main{
 
 .coup_de_coeur > .carrousel + div > div+div > div {
     background-color: red;
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    text-align: center;
+    vertical-align:center;
 }
 
-.coup_de_coeur > .carrousel + div > div+div > h3 p {
-   height: 20px;
+.coup_de_coeur > .carrousel + div > div+div > div > p{
+    font-size: 20px;
+    text-transform:none;
+}
+
+.coup_de_coeur > .carrousel + div > div+div > div > p::first-line{
+    font-size: 40px;
 }
 
 #g{
