@@ -224,12 +224,14 @@ body > main{
 }
 
 .coup_de_coeur{
+    display: inline-block;
     height: 350px;
     width: 100%;
     padding: 0;
 }
 
 .coup_de_coeur > .carrousel{
+    float: left;
     position:relative;
     height: 350px;
     width: 50%;
@@ -266,14 +268,15 @@ body > main{
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.coup_de_coeur > .carrousel + div{
+.coup_de_coeur > .contenu_coup_de_coeur{
+    float: right;
     height: 350px;
     width: 50%;
     background-color: #fff;
     margin: 0;
 }
 
-.coup_de_coeur > .carrousel + div > div{
+.coup_de_coeur > .contenu_coup_de_coeur > div{
     height: 12.5%;
     width: 100%;
     background-color: #277AB9;
@@ -288,7 +291,7 @@ body > main{
     
 }
 
-.coup_de_coeur > .carrousel + div > div+div{
+.coup_de_coeur > .contenu_coup_de_coeur > div+div{
     display: flex;
     background-color: blue;
     color: #000;
@@ -297,19 +300,19 @@ body > main{
     height: auto;
 }
 
-.coup_de_coeur > .carrousel + div > div+div > div {
+.coup_de_coeur > .contenu_coup_de_coeur > div+div > div {
     background-color: red;
     align-items: center;
     text-align: center;
     vertical-align:center;
 }
 
-.coup_de_coeur > .carrousel + div > div+div > div > p{
+.coup_de_coeur > .contenu_coup_de_coeur > div+div > div > p{
     font-size: 20px;
     text-transform:none;
 }
 
-.coup_de_coeur > .carrousel + div > div+div > div > p::first-line{
+.coup_de_coeur > .contenu_coup_de_coeur > div+div > div > p::first-line{
     font-size: 40px;
 }
 
