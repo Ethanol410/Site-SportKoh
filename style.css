@@ -434,28 +434,12 @@ main > .catalogue > .catalog_item > .icone{
     bottom: 0;
 }
 
-
-
-/*************************************************************************************/
-/*************************************************************************************/
-/*Page hébergement détaillé*/
-
-.MenuDetail {
-    width: 50%;
-    position: relative;
-    background-image: none;
-    
-}
-
-.MenuDetail > article {
-    width: 50%;
-}
 .button {
     background-color: #3F91CC;
     width: 155px;
     height: 45px;
     position: absolute;
-    left: 135px;
+    right: 135px;
     top: 245px;
     margin: 0;
     display: flex;
@@ -480,4 +464,33 @@ main > .catalogue > .catalog_item > .icone{
     border-color: #FFFFFF;
     border-width: 5px;
     border-style: solid;
+}
+
+
+/*************************************************************************************/
+/*************************************************************************************/
+/*Page hébergement détaillé*/
+
+
+
+.TitreMenu{
+
+}
+
+.MenuDetail{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.ArticleResume{
+    flex-direction: row;
+    flex-basis: 2;
+    flex-wrap: wrap;
+
+}
+
+.ArticleResume > .ResumeTxt + .ResumeListe + .BoutonReserver + .EtoileNote + .Nbnote + .PrixMenu{
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
