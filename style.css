@@ -439,8 +439,8 @@ main > .catalogue > .catalog_item > .icone{
     width: 155px;
     height: 45px;
     position: absolute;
-    right: 135px;
-    top: 245px;
+    right: 5%;
+    top: 77.5%;
     margin: 0;
     display: flex;
     align-items: center;
