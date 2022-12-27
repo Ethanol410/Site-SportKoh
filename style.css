@@ -449,26 +449,22 @@ main > .catalogue > .catalog_item > .icone{
 /*************************************************************************************/
 /*Page hébergement détaillé*/
 
-
-
-.TitreMenu{
-
-}
-
 .MenuDetail{
     display: flex;
-    flex-direction: row;
+        flex-direction: row;
+        justify-content:center;
+        flex-basis: auto;
+        flex-wrap: nowrap;
+    }
+/*main >.MenuDetail{
+    position: relative;
+    display: inline;
+    left: 0px;
+    width: 80px;
+    
 }
-
-
+*/
 .ArticleResume{
-    flex-direction: row;
-    flex-basis: 2;
-    flex-wrap: wrap;
-
+    order: 2;
 }
 
-.ArticleResume > .ResumeTxt + .ResumeListe + .BoutonReserver + .EtoileNote + .Nbnote + .PrixMenu{
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
