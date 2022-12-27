@@ -211,16 +211,21 @@ body > main{
 }
 
 .texte_aguicheur{
-    height: auto;
+    height: 150px;
+    background-color: #fff;
     font-family: 'JacquesFrancois', Arial, sans-serif;
     font-size: 30px;
-    padding: 0;
+    padding-top: 0;
 }
 
 .texte_aguicheur p{
-    display: block;
-    width: 100%;
+    position: relative;
     text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .coup_de_coeur{
@@ -277,7 +282,7 @@ body > main{
 }
 
 .coup_de_coeur > .contenu_coup_de_coeur > div{
-    height: 12.5%;
+    height: 15%;
     width: 100%;
     background-color: #277AB9;
     margin: 0;
@@ -293,27 +298,44 @@ body > main{
 
 .coup_de_coeur > .contenu_coup_de_coeur > div+div{
     display: flex;
-    background-color: blue;
+    background-color: #fff;
     color: #000;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     height: auto;
 }
 
+.coup_de_coeur > .contenu_coup_de_coeur > div+div > a{
+    text-decoration: none;
+    width: 95%;
+    align-self:center;
+    transform: translateX(1.5%);
+    margin: 15px 0 15px 0;
+}
+
+.coup_de_coeur > .contenu_coup_de_coeur > div+div > a > .button{
+    position:static;
+    width: 95%;
+    text-transform: none;
+}
+
 .coup_de_coeur > .contenu_coup_de_coeur > div+div > div {
-    background-color: red;
     align-items: center;
     text-align: center;
     vertical-align:center;
+    height: 150px;
 }
 
 .coup_de_coeur > .contenu_coup_de_coeur > div+div > div > p{
     font-size: 20px;
     text-transform:none;
+    text-overflow: clip;
+    line-height: 100%;
 }
 
 .coup_de_coeur > .contenu_coup_de_coeur > div+div > div > p::first-line{
     font-size: 40px;
+    line-height: 150%;
 }
 
 #g{
