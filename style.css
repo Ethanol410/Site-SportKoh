@@ -215,7 +215,7 @@ body > main{
     background-color: #fff;
     font-family: 'JacquesFrancois', Arial, sans-serif;
     font-size: 30px;
-    padding-top: 0;
+    margin-bottom: 60px;
 }
 
 .texte_aguicheur p{
@@ -233,6 +233,7 @@ body > main{
     height: 350px;
     width: 100%;
     padding: 0;
+    margin-bottom: 60px;
 }
 
 .coup_de_coeur > .carrousel{
@@ -309,7 +310,7 @@ body > main{
     text-decoration: none;
     width: 95%;
     align-self:center;
-    transform: translateX(1.5%);
+    transform: translateX(2.5%);
     margin: 15px 0 15px 0;
 }
 
