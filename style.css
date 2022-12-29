@@ -424,16 +424,27 @@ main > .catalogue > .catalog_item {
 
 .avecPromo > p {
     position: relative;
-    top: 30%;
+    top: 23%;
+    font-size: 17px;
 }
 
 .avecPromo > h2 {
     position: relative;
-    top: 30%;
+    top: 31%;
+    font-size: 30px;
 }
 
 .sansPromo {
     color: #000000;
+}
+
+.sansPromo > p{
+    font-size: 17px;
+    transform: translateY(-27px);
+}
+
+.sansPromo > h2{
+    font-size: 30px;
 }
 
 main > .catalogue {
@@ -443,7 +454,7 @@ main > .catalogue {
     margin-bottom: 60px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 main > .catalogue > .catalog_item > .icone{
