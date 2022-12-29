@@ -589,7 +589,111 @@ main > .catalogue > .catalog_item > .icone{
     
 }
 */
-.ArticleResume{
-    order: 2;
+.coup_de_coeur{
+    position: relative;
+    white-space: pre-line;
+    text-align: justify;
+    width: 50em;
+    margin: 10;
 }
 
+.ArticleResume{
+    display: inline-flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    margin: 2em;
+
+    width: 100%;
+    text-align: center;
+    background-color: #5DC8F5;
+    margin: 10;
+    color: #fff;
+   
+   
+   
+}
+
+.ResumeTxt{
+    background-color: #277AB9;
+    
+}
+
+.ResumeListe{
+    background-color: #277AB9;
+}
+
+.BoutonReserver{
+    background-color: #277AB9;
+    
+}
+
+.EtoileNote{
+    background-color: #277AB9;
+}
+
+.NbNote{
+    background-color: #277AB9;
+}
+
+.PrixMenu{
+    background-color: #277AB9;
+}
+/*
+.button {
+    background-color: #3F91CC;
+    width: 155px;
+    height: 45px;
+    position: absolute;
+    right: 5%;
+    top: 77.5%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    filter: drop-shadow(4px 4px 4px rgba(0,0,0,0.25));
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3F91CC;
+}
+
+.button > p{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    font-style: Inter;
+}
+
+.button:hover{
+    background-color: #277AB9;
+    border-color: #FFFFFF;
+    border-width: 5px;
+    border-style: solid;
+}
+**/
+
+main > .TitreMenu > h1{
+    width: 100%;
+    text-align: center;
+    background-color: #277AB9;
+    margin: 0;
+    height: 60px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.TitreSUPP > h1 {
+    width: 100%;
+    text-align: center;
+    background-color: #277AB9;
+    margin: 0;
+    height: 60px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
