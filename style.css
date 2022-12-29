@@ -311,7 +311,7 @@ body > main{
     margin-bottom: 60px;
 }
 
-.coup_de_coeur > .carrousel{
+.carrousel{
     float: left;
     position:relative;
     height: 350px;
@@ -320,13 +320,13 @@ body > main{
     overflow: hidden;
 }
 
-.coup_de_coeur > .carrousel > #carrousel_container{
+.carrousel > #carrousel_container{
     display: flex;
     flex-direction: row;
     height: 350px;
 }
 
-.coup_de_coeur > .carrousel > #carrousel_container > .img{
+.carrousel > #carrousel_container > .img{
     width: 50%;
     height: 350px;
     margin: 0;
@@ -334,7 +334,7 @@ body > main{
     background-position:top center;
 }
 
-.coup_de_coeur > .carrousel > .bouton_carrousel{
+.carrousel > .bouton_carrousel{
     position: absolute;
     width: 150px;
     height: 150px;
@@ -344,7 +344,7 @@ body > main{
     transition: all 100ms ease-in-out;
 }
 
-.coup_de_coeur > .carrousel > .bouton_carrousel:hover{
+.carrousel > .bouton_carrousel:hover{
     opacity: 1;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -589,13 +589,6 @@ main > .catalogue > .catalog_item > .icone{
     
 }
 */
-.coup_de_coeur{
-    position: relative;
-    white-space: pre-line;
-    text-align: justify;
-    width: 50em;
-    margin: 10;
-}
 
 .ArticleResume{
     display: inline-flex;
