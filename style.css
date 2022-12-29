@@ -232,6 +232,7 @@ body > footer{
     background-origin: border-box;
     background-position-y: center;
     background-position-x: 3em;
+    transition: all 300ms ease-in-out;
 }
 
 body > footer div{
@@ -239,17 +240,42 @@ body > footer div{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 350px;
+    width: 420px;
 }
 
 body > footer img{
-    scale: 0.8;
-    transition: all 100ms ease-in-out;
+    height: 60px;
+    width: 60px;
+    transition: all 300ms ease-in-out;
 }
 
 body > footer img:hover{
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
     transform: translateY(-3px);
+}
+
+@media screen and (max-width: 900px){
+    body > footer{
+        background-size: 75px;
+        background-position-x: 2em;
+    }
+}
+
+@media screen and (max-width: 700px){
+    body > footer{
+        background-size: 45px;
+        height: 90px;
+        background-position-x: 1em;
+    }
+
+    body > footer div{
+        width: 210px;
+    }
+
+    body > footer img{
+        height: 30px;
+        width: 30px;
+    }
 }
 
 /*************************************************************************************/
