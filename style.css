@@ -318,6 +318,7 @@ body > main{
     width: 50%;
     margin: 0;
     overflow: hidden;
+    background-color: #fff;
 }
 
 .carrousel > #carrousel_container{
