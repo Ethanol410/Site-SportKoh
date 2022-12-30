@@ -47,6 +47,12 @@ h2{
     scale: 0.9;
 }
 
+@media screen and (max-width: 880px){
+    * > h2{
+        font-size: 20px;
+    }
+}
+
 /*************************************************************************************/
 /*Définition du header*/
 body header{
@@ -259,6 +265,15 @@ body > footer img:hover{
         background-size: 75px;
         background-position-x: 2em;
     }
+
+    body > footer div{
+        width: 315px;
+    }
+
+    body > footer img{
+        height: 45px;
+        width: 45px;
+    }
 }
 
 @media screen and (max-width: 700px){
@@ -437,6 +452,55 @@ body > main{
 #d{
     right: 0.5em; 
 }
+
+@media screen and (max-width: 880px){
+    .texte_aguicheur{
+        font-size: 20px;
+    }
+
+    .coup_de_coeur > .contenu_coup_de_coeur > div+div > a > .button{
+        font-size: 20px;
+    }
+
+    .coup_de_coeur > .contenu_coup_de_coeur > div+div+div > img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .carrousel > .bouton_carrousel{
+        width: 100px;
+        height: 100px;
+        top: 35%;
+    }
+
+    .coup_de_coeur > .contenu_coup_de_coeur > div+div > div {
+        align-items: center;
+        text-align: center;
+        vertical-align:center;
+        height: 150px;
+    }
+
+    .coup_de_coeur > .contenu_coup_de_coeur > div+div > div > p{
+        font-size: 16px;
+        line-height: 100%;
+        margin-top: 30px;
+    }
+    
+    .coup_de_coeur > .contenu_coup_de_coeur > div+div > div > p::first-line{
+        font-size: 30px;
+        line-height: 150%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .texte_aguicheur{
+        font-size: 19px;
+    }
+
+    .coup_de_coeur{
+        display: none;
+    }
+}
 /*************************************************************************************/
 /*************************************************************************************/
 /*Page de la liste des séjours*/
@@ -468,7 +532,7 @@ body > main{
     font-size: 24px;
 }
 
-main > .catalogue > h2{
+.catalogue > h2{
     width: 100%;
     text-align: center;
     background-color: #277AB9;
@@ -480,7 +544,7 @@ main > .catalogue > h2{
     text-transform: uppercase;
 }
 
-main > .catalogue > .catalog_item {
+.catalogue > .catalog_item {
     position:relative;
     width: 320px;
     height: 320px;
@@ -533,7 +597,7 @@ main > .catalogue {
     justify-content: space-evenly;
 }
 
-main > .catalogue > .catalog_item > .icone{
+.catalogue > .catalog_item > .icone{
     position: absolute;
     bottom: 0;
 }
@@ -570,6 +634,17 @@ main > .catalogue > .catalog_item > .icone{
     border-style: solid;
 }
 
+@media screen and (max-width: 880px){
+    .catalogue > h2{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .catalogue > h2{
+        font-size: 20px;
+    }
+}
 
 /*************************************************************************************/
 /*************************************************************************************/
