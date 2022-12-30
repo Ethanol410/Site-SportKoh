@@ -220,6 +220,16 @@ body > header > div+div > div{
         font-size: 48px;
     }
 }
+
+@media screen and (max-width: 600px){
+    body > header > div+div{
+        display: none;
+    }
+
+    body header{
+        height: 230px;
+    }
+}
 /*************************************************************************************/
 /*Définition du footer*/
 body > footer{
