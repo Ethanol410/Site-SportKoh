@@ -1,10 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-
-
-
 /*************************************************************************************/
 /*Définition des polices*/
 @font-face {
@@ -701,13 +694,13 @@ main>.TitreMenu>h1 {
     
 }
 */
-.carrousel {
+.MenuDetail > .carrousel {
     border-radius: 1em;
     margin-left: 2em;
    
     height: 30em;
 }
-.carrousel_container{
+.MenuDetail > .carrousel > .carrousel_container{
     height: 30em;
     background-color: red;
 }
