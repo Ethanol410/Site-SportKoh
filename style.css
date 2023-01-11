@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -690,7 +691,6 @@ main>.TitreMenu>h1 {
     flex-basis: auto;
     flex-wrap: nowrap;
     background-color: #fff;
-
 }
 
 /*main >.MenuDetail{
@@ -891,6 +891,7 @@ main>.TitreMenu>h1 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     row-gap: 1em;
+    background-color: white;
 }
 
 .catalogue2>.catalog_item2 {
@@ -965,3 +966,291 @@ main>.catalogue2 {
 .icone2>img {
     scale: 0.9;
 }
+
+.InfoDuSejour{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: center;
+    background-color: #FFBD59;
+    flex-basis: 100%;
+    font-family: 'JacquesFrancois';
+}
+
+.InfoDuSejour div{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.InfoDuSejour div div{
+    width: 100%;
+}
+
+.InfoDuSejour div div ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ArticleProgActivite{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    color: white;
+  
+}
+
+
+.Prog{
+    
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.Prog >h2{
+    display: flex;
+    justify-content: center;
+    background-color: #277AB9;
+    border: 1em solid #277AB9;
+    border-radius: 2em;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+      
+}
+
+.Prog > .TitreP{
+    height: 50px;
+}
+.Prog >div{
+    position: relative;
+    bottom: 2.3em;
+    
+}
+.Prog > div>ul{
+    background-color: #fff;
+    border: 0.8em solid #FFFF;
+    border-radius: 2em;
+    color: #277AB9;
+    
+}
+.Prog >div>ul>li{
+    
+}
+.Activite{
+    
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.Activite > h2{
+    background-color: #FFFFFF;
+    border: 1em solid #ffffff;
+    border-radius: 2em;
+    color: #277AB9;
+    display: flex;
+    justify-content: center;
+}
+.Activite >div{
+    position: relative;
+    bottom: 2.3em;
+}
+.Activite > div>ul{
+    background-color: #277AB9;
+    border: 0.8em solid #277AB9;
+    border-radius: 2em;
+    color: #fff;
+}
+
+.Activite > div>ul>li{
+    
+}
+.ArticleAvantagesPeriode{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.Avantages{
+    color: white;
+}
+
+.Avantages > h2{
+    background-color: #277AB9;
+    border: 1em solid #277AB9;
+    border-radius: 2em;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.Avantages >div{
+    position: relative;
+    bottom: 1.25em;
+}
+.Avantages > div>ul{
+    background-color: #fff;
+    border: 0.8em solid #FFFFFF;
+    border-radius: 2em;
+    color: #277AB9;
+
+}
+.Periode{
+  color: #FFFFFF;
+}
+
+.Periode > h2{
+    background-color: #FFFFFF;
+    border: 1em solid #ffffff;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    color: #277AB9;
+}
+.Periode > div{
+    position: relative;
+    bottom: 1.25em;
+}
+.Periode > div > ul{
+    background-color: #277AB9;
+    border: 0.8em solid #277AB9;
+    border-radius: 2em;
+    color: #fff;
+}
+.ArticleEquipementsPresta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.Equipements{
+    color: #FFFFFF;
+}
+
+.Equipements > h2{
+    background-color: #ffffff;
+    border: 1em solid #ffffff;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    color: #277AB9;
+}
+.Equipements>div{
+    background-color: #277AB9;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1em solid #277AB9;
+    border-radius: 2em;
+    position: relative;
+    bottom: 1.25em;
+}
+
+.Equipements > div>ul{
+    border: 1em solid #277AB9;
+    border: 1em solid #FFFF;
+    border-radius: 2em;
+}
+
+.Equipements > div > div {
+    width: 90%;
+}
+
+.Equipements > div>.ColorGreenUl{
+    background-color: #2BF43F;
+    
+}
+
+.ColorGreenUl{
+color: black;
+background-color: #2BF43F;
+border: 1em solid #2BF43F;
+border-radius: 2em;
+}
+
+.ColorRedUl{
+background-color: #FF3838;
+border: 1em solid #FF3838;
+border-radius: 2em;
+}
+
+.Presta{
+color: white;
+
+}
+.Presta >h2{
+    background-color: #277AB9;
+    border: 1em solid #277AB9;
+    border-radius: 2em;
+    color: #277AB9;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.Presta>div{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1em solid #FFFF;
+    border-radius: 2em;
+    position: relative;
+    bottom: 1.25em;
+}
+.Presta >div>ul{
+    background-color: #277AB9;
+    border: 1em solid #FFFF;
+    border-radius: 2em;
+}
+.Presta> div>.ColorGreenUl{
+    background-color: #2BF43F;
+    
+
+}
+
+.Presta>div>.ColorRedUl{
+    background-color: #FF3838;
+    
+}
+.ArticleAvantagesPeriode > div, .ArticleEquipementsPresta > div{
+    margin: 10px 25px;
+}  
+
+@media screen and (max-width:1100px){
+    .MenuDetail {
+        flex-wrap: wrap;
+    }
+
+    .carrousel {
+        margin-top: 10px;
+        flex-basis: 100%;
+    }
+
+    .ResumeTxt {
+        font-size: 12px;
+    }
+    .ResumeListe{
+        font-size: 10px;
+    }
+}
+    
