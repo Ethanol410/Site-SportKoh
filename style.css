@@ -559,13 +559,6 @@ body>main {
     z-index: 1;
 }
 
-@keyframes apparition {
-    100% {
-        opacity: 1;
-        transform: none;
-    }
-}
-
 .catalogue>.catalog_item {
     position: relative;
     width: 320px;
@@ -578,9 +571,6 @@ body>main {
     color: #FFFFFF;
     border-radius: 15% 0 15% 0;
     transition: all 300ms ease-in-out;
-    opacity: 0;
-    transform: translateY(30px);
-    animation: appartion 0.4s 1.6s ease-out;
 }
 
 .catalogue>.catalog_item:hover {
