@@ -271,6 +271,22 @@ body>footer img:hover {
     transform: translateY(-3px);
 }
 
+body>footer>div+div{
+    position: absolute;
+    width: max-content;
+    bottom: 0;
+    right: 1em;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+@media screen and (max-width: 1100px) {
+    body>footer>div+div{
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width: 900px) {
     body>footer {
         background-size: 75px;
@@ -279,6 +295,10 @@ body>footer img:hover {
 
     body>footer div {
         width: 315px;
+    }
+
+    body>footer>div+div{
+        font-size: 10px;
     }
 
     body>footer img {
