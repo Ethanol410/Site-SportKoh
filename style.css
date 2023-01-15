@@ -746,6 +746,11 @@ main>.TitreMenu>h1 {
     height: 30em;
     background-color: red;
 }
+
+.MenuDetail > .carrousel > .bouton_carrousel{
+    top: 33%;
+}
+
 .ArticleResume {
     box-sizing: border-box;
     display: flex;
@@ -774,7 +779,7 @@ main>.TitreMenu>h1 {
     background-color: #277AB9;
     font-family: 'JacquesFrancois';
     width: calc(70% - 2em);
-    height: 13em;
+    height: max-content;
 }
 
 .ResumeTxt>p {
@@ -786,7 +791,7 @@ main>.TitreMenu>h1 {
     background-color: #277AB9;
     font-family: 'JacquesFrancois';
     width: calc(30% - 2em);
-    height: 13em;
+    height: max-content;
 
 }
 .ResumeListe > ul>li{
@@ -798,21 +803,20 @@ main>.TitreMenu>h1 {
     display: flex;
     flex-direction: column;
     width: calc(40% - 2em);
-    height: 8em;
-
-
+    height: max-content;
 }
 
 .EtoileNote_nbnote>p {
     font-size: 2em;
     margin-top: 0.3em;
+    transform: translateY(0.5em);
 }
 
 .EtoileNote_nbnote>div {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    transform: translateY(1em);
 }
 
 .EtoileNote_nbnote>div>img {
@@ -1076,9 +1080,7 @@ main>.catalogue2 {
     color: #277AB9;
     
 }
-.Prog >div>ul>li{
-    
-}
+
 .Activite{
     
     flex-direction: column;
@@ -1107,9 +1109,6 @@ main>.catalogue2 {
     color: #fff;
 }
 
-.Activite > div>ul>li{
-    
-}
 .ArticleAvantagesPeriode{
     display: flex;
     flex-direction: row;
@@ -1128,6 +1127,7 @@ main>.catalogue2 {
     color: #ffffff;
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 .Avantages >div{
     position: relative;
@@ -1151,6 +1151,7 @@ main>.catalogue2 {
     display: flex;
     justify-content: center;
     color: #277AB9;
+    margin: 0;
 }
 .Periode > div{
     position: relative;
@@ -1291,5 +1292,12 @@ color: white;
         order: 10;
     }
 
+    .InfoDuSejour > div{
+        width: 95%;
+    }
+
+    .MenuDetail > .carrousel > .bouton_carrousel{
+        top: 35%;
+    }
 }
 
