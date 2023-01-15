@@ -1031,6 +1031,7 @@ main>.catalogue2 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .ArticleProgActivite{
@@ -1038,20 +1039,9 @@ main>.catalogue2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
     color: white;
-  
 }
 
-
-.Prog{
-    
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-}
 
 .Prog >h2{
     display: flex;
@@ -1059,10 +1049,8 @@ main>.catalogue2 {
     background-color: #277AB9;
     border: 1em solid #277AB9;
     border-radius: 2em;
-    justify-content: center;
     align-items: center;
     color: #fff;
-      
 }
 
 .Prog > .TitreP{
@@ -1078,15 +1066,6 @@ main>.catalogue2 {
     border: 0.8em solid #FFFF;
     border-radius: 2em;
     color: #277AB9;
-    
-}
-
-.Activite{
-    
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    
     
 }
 
